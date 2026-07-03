@@ -18,6 +18,15 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+  icons: {
+    icon: [{ url: '/icon.png', sizes: '512x512', type: 'image/png' }],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/images/apple-touch-icon-167x167.png', sizes: '167x167', type: 'image/png' },
+      { url: '/images/apple-touch-icon-152x152.png', sizes: '152x152', type: 'image/png' },
+      { url: '/images/apple-touch-icon-120x120.png', sizes: '120x120', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({
